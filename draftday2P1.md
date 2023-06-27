@@ -1,5 +1,4 @@
 # DAY 2 - GIT/GITHUB : BRANCHES TRAINING - 27/06/2023
----
 ## Part 1: Preliminaries
 - *Create a new repository on the GITHUB website (it just contains a README file)*
 - *SSH clone to my local computer*
