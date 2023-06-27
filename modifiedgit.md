@@ -1,8 +1,8 @@
 # Some exercises with GitHub (day 1)
  
-- *To start with, GIT's configuration did not work!*
-- *Now add my private key:*
-    1. First time round (it fails!):
+1. *To start with, GIT's configuration did not work!*
+1. *Now add my private key:*
+    - First time round (it fails!):
        ```
           mperez2023@DESKTOP-UGTH925:~$ cd ~/.ssh
           mperez2023@DESKTOP-UGTH925:~/.ssh$ ls
@@ -10,28 +10,28 @@
           mperez2023@DESKTOP-UGTH925:~/.ssh$ ssh-add id_ed25519_github
           Could not open a connection to your authentication agent.
        ```
-    1. Try to add a different private key (AGAIN UNSUCCESSFULLY!):
+    - Try to add a different private key (AGAIN UNSUCCESSFULLY!):
        ```
-      mperez2023@DESKTOP-UGTH925:~$ ssh-add ~/.ssh/mperez2023/id_ed25519_github
-      Could not open a connection to your authentication agent.
-      mperez2023@DESKTOP-UGTH925:~$ ssh-add ~/.ssh/mperez2023/id_rsa
-      Could not open a connection to your authentication agent.
+          mperez2023@DESKTOP-UGTH925:~$ ssh-add ~/.ssh/mperez2023/id_ed25519_github
+          Could not open a connection to your authentication agent.
+          mperez2023@DESKTOP-UGTH925:~$ ssh-add ~/.ssh/mperez2023/id_rsa
+          Could not open a connection to your authentication agent.
        ```
-    1. Try once more:
+1. *Try once more:*
        ```
           mperez2023@DESKTOP-UGTH925:~$ ssh-add .ssh/mperez2023/id_ed25519_github
           Could not open a connection to your authentication agent.
           mperez2023@DESKTOP-UGTH925:~$ ssh-add .ssh/mperez2023/id_rsa
           Could not open a connection to your authentication agent.
        ```
-- *After creating on the GitHub website a repository named "hello-world", I proceed to cloning it to my local machine.*
-     1. In ubuntu, type:
-       ```
+1. *After creating on the GitHub website a repository named "hello-world", I proceed to cloning it to my local machine.*
+    - In ubuntu, type:
+      ```
            cd tmp
            git clone https://github.com/mperezjigato/hello-world
-       ```
+      ```
         with the following outcome:
-       ```
+      ```
            Cloning into 'hello-world'...
            remote: Enumerating objects: 43, done.
            remote: Counting objects: 100% (43/43), done.
@@ -40,16 +40,16 @@
            Receiving objects: 100% (43/43), 8.66 MiB | 2.02 MiB/s, done.
            Resolving deltas: 100% (2/2), done.
        ```
-    1. Check for the newly created local directory
+    - Check for the newly created local directory
        ```
           mperez2023@DESKTOP-UGTH925:~/GitHub/tmp$ ls
           hello-world
        ```
-    1. I enter the new local directory:
+    - I enter the new local directory:
        ```
           $cd hello-world
        ```
-    1. And now print out the full history of my repository:
+    - And now print out the full history of my repository:
        ```
             mperez2023@DESKTOP-UGTH925:~/GitHub/tmp/hello-world$ git log
             commit fbf794f767835c8d1b167d33e794424d3b72887e (HEAD -> main, origin/main, origin/HEAD)
