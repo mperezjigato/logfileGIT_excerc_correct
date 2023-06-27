@@ -10,25 +10,28 @@
 - *Start locally a new branch (famous "development" branch) off main*
 - *Start locally a new feature branch off development ("feature/hello_world")*
 - *I am now inside the feature/hellow_world branch and ready to create a file*
-   1. Create and edit a simple fortran file under the name "hello.f90"
-   1. Create a relevant makefile
+  
+    > Create and edit a simple fortran file under the name "hello.f90"
+    > 
+    > Create a relevant makefile
+
 - *Compile-link the fortran file hello.f90 using the makefile ("make")*
 - *Run the executable "hello.exe"*
 - *Everything seems to have gone fine, now check the status (git status)*
-   1. We see three untracked files, ie hello.f90, hello.exe, makefile (and README.md)
+
+    > We see three untracked files, ie hello.f90, hello.exe, makefile (and README.md)
+
 - *Create/copy a .gitignore file that ignores executables*
 - *Focus on Staging/committing just the .gitignore file*
 - *Check status*
 - *Out of the blue I decide that my .gitignore file is permanently required on my development branch*
 - *Before that, I am pushing my new development branch onto Origin*
-   1. Switch to development
-   1. Look at all the existing files in this directory: There is no .gitignore file
-       ´´´
-       $ls -al
-       ´´´
-   1. Now push "development" onto Origin (copy dev to the GITHUB website)
-       ´´´
-       $git push origin development
-       ´´´
+  
+    > Switch to development
+    >
+    > Look at all the existing files in this directory (ls -al): There is no .gitignore file
+    > 
+    > Now push "development" onto Origin (git push origin development)
+    
 - *Switch back to the "feature/hello_world" branch*
 - *Push "feature/hello_world" to Origin (copy this feature branch to website)*
