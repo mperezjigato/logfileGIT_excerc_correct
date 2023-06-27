@@ -1,3 +1,4 @@
+
 # Some exercises with GitHub (day 1)
  
 1. *To start with, GIT's configuration did not work!*
@@ -17,13 +18,13 @@
           mperez2023@DESKTOP-UGTH925:~$ ssh-add ~/.ssh/mperez2023/id_rsa
           Could not open a connection to your authentication agent.
        ```
-1. *Try once more:*
-       ```
+    - *Try once more:*
+        ```
           mperez2023@DESKTOP-UGTH925:~$ ssh-add .ssh/mperez2023/id_ed25519_github
           Could not open a connection to your authentication agent.
           mperez2023@DESKTOP-UGTH925:~$ ssh-add .ssh/mperez2023/id_rsa
           Could not open a connection to your authentication agent.
-       ```
+        ```
 1. *After creating on the GitHub website a repository named "hello-world", I proceed to cloning it to my local machine.*
     - In ubuntu, type:
       ```
