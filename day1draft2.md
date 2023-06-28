@@ -5,7 +5,7 @@
 
 1. *To start with, GIT's configuration did not work! [^1]*
     [^1]: See correct syntax (git config) in the slide included in contestation
-    document "day1contest.md" (the procedure in the picture shown in this document is wrong! -day1draft.md).
+    document "day1contest.md" (the procedure in this document is wrong!).
 
     ![](vc19.png)
 
