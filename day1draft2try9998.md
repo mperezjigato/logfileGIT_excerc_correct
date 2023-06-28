@@ -35,8 +35,8 @@
 
 1. *After creating on the GitHub website a repository named "hello-world", I proceed to cloning it to my local machine [^6].*
     ```bash
-                 $cd tmp
-                 $git clone https://github.com/mperezjigato/hello-world
+                                         $cd tmp
+                                         $git clone https://github.com/mperezjigato/hello-world
     ```
    with the following outcome:
     ```bash
@@ -369,17 +369,17 @@
 
 1. In ubuntu type:
     ```bash        
-       git config --global user.name "Manuel Perez Jigato"
+                                    $git config --global user.name "Manuel Perez Jigato"
     ```
    no problem! (please do not use the equal sign)
 1. Type now:
     ```
-       git config --global user.email "manuel.perezjigato@uhasselt.be"
+                                    $git config --global user.email "manuel.perezjigato@uhasselt.be"
     ```
    no problem! (both seem to work - with and without equal sign -)
 1. And the third one:
     ```bash
-       git config --global core.editor vim
+                                    $git config --global core.editor vim
     ```
    no problem!
 1. Look at the resulting config file
@@ -392,16 +392,16 @@
    The configuration is saved in a file named .gitconfig at my $HOME directory
    Copy that file (.gitconfig) with a different name to /etc, ie
     ```bash
-                        $cp ~/.gitconfig /etc/gitconfig
+                                    $cp ~/.gitconfig /etc/gitconfig
     ```
    And you must create a directory git inside $HOME/.config : $HOME/.config/git
    Inside the latter, copy the .gitconfig file as config
     ```bash
-                        $cp ~/.gitconfig $HOME/.config/git/config
+                                    $cp ~/.gitconfig $HOME/.config/git/config
     ``` 
    Finally set up the environment variable XDG_CONFIG_HOME within .bashrc
     ```bash
-                        $export XDG_CONFIG_HOME=$HOME/.config
+                                    $export XDG_CONFIG_HOME=$HOME/.config
     ```
 
 ## Continue now working on hello-world:
