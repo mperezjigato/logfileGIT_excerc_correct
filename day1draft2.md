@@ -36,12 +36,13 @@
           Could not open a connection to your authentication agent.
        ```
 
-## Carry out git/github operations with one repository (hello_world [^5])
+## Carry out git/github operations on repository "hello_world" [^5]
+
    [^5]: Repository "hellow_world" contains the outcome of task2: A collection of computer screenshots documenting the independent steps for an HPC application at VSC (KU Leuven-ICTS)
 
 1. *After creating on the GitHub website a repository named "hello-world", I proceed to cloning it to my local machine [^6].*
-   [^6]: Two mistakes were incurred upon: (a) incorrect HTTPS procedure (choose SSH instead) and (b) incorrect website (choose Code/SSH and the address in the provided box)
-       ```
+    [^6]: Two mistakes were incurred upon: (a) incorrect HTTPS procedure (choose SSH instead) and (b) incorrect website (choose Code/SSH and the address in the provided box)
+       ```bash
           $cd tmp
           $git clone https://github.com/mperezjigato/hello-world
        ```
