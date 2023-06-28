@@ -9,7 +9,7 @@
 
     ![](vc19.png)
 
-1. *Now add my private key (they all fail! [^2]):*
+1. *Now add my private key (all the trials in this section fail! [^2]):*
     [^2]: See contestation document "day1contest.md" for full description of the missing part of this setup: "The SSH Agent" must be running from the outset.
     - First time round (.gitconfig contains official user e-mail [^3]):
       [^3]: manuel.perezjigato@uhasselt.be
