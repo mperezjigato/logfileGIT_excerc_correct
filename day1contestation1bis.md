@@ -45,4 +45,11 @@ fi
                 $cp ~/.gitconfig $HOME/.config/git/config
  
                 $export XDG_CONFIG_HOME=$HOME/.config
-   ```
+
+## Typically you would like to clone a repository on your local linux machine:
+
+On your GitHub website, put the cursor on the green button "Code" and choose fro the menu the SSH option. Copy next the address provided at the little box, and do
+```bash
+                     $git clone provided-web-address
+```
+where provided web-address is the pasted one. Do not use as address the website corresponding to the repository!
