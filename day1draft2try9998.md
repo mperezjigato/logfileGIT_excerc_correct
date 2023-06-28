@@ -540,7 +540,7 @@
 
 [^1]: See contestation document "day1contest.md" (the procedure in this document is wrong!) for the correct syntax.
 
-[^2]: See contestation document "day1contest.md" for a full description of the missing part of this setup: ***"The SSH Agent" must be running from the outset***.
+[^2]: See contestation document "day1contest.md" for a full description of the missing part of this setup: ****"The SSH Agent" must be running from the outset"****.
 
 [^3]: manuel.perezjigato@uhasselt.be
 
