@@ -7,7 +7,7 @@
     [^1]: See correct syntax (git config) in the slide included in contestation
     document "day1contest.md" (the procedure in the picture shown in this document is wrong! -day1draft.md).
 
-    ![](vcGITPAGE19.png)
+    ![](vc19.png)
 
 1. *Now add my private key (they all fail! [^2]):*
     [^2]: See contestation document "day1contest.md" for full description of the missing part of this setup: "The SSH Agent" must be running from the outset.
