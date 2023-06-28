@@ -46,16 +46,16 @@
           $cd tmp
           $git clone https://github.com/mperezjigato/hello-world
     ```
-    with the following outcome:
-       ```bash
-          Cloning into 'hello-world'...
-          remote: Enumerating objects: 43, done.
-          remote: Counting objects: 100% (43/43), done.
-          remote: Compressing objects: 100% (38/38), done.
-          remote: Total 43 (delta 2), reused 0 (delta 0), pack-reused 0
-          Receiving objects: 100% (43/43), 8.66 MiB | 2.02 MiB/s, done.
-          Resolving deltas: 100% (2/2), done.
-       ```
+   with the following outcome:
+    ```bash
+       Cloning into 'hello-world'...
+       remote: Enumerating objects: 43, done.
+       remote: Counting objects: 100% (43/43), done.
+       remote: Compressing objects: 100% (38/38), done.
+       remote: Total 43 (delta 2), reused 0 (delta 0), pack-reused 0
+       Receiving objects: 100% (43/43), 8.66 MiB | 2.02 MiB/s, done.
+       Resolving deltas: 100% (2/2), done.
+    ```
 1. *Check for the newly created local directory:*
        ```bash
           mperez2023@DESKTOP-UGTH925:~/GitHub/tmp$ ls
