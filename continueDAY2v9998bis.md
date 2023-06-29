@@ -122,4 +122,4 @@ index 0000000..4072ab0
 
 ## Part 3: Continue with branches
 
-[^1] github.com/gjbex/Version-control-with-git
+[^1]: github.com/gjbex/Version-control-with-git
