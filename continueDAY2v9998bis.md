@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The diagram below [^1] illustrates the logic behind branching in GitHub/Git. The simple sequence **main** $\rightarrow$ **development** $\rightarrow$ **feature** summarises our particular example. The rightmost term in the above equation constitutes the actual work space.
+The diagram below [^1] illustrates the logic behind branching in GitHub/Git. The simple sequence **main** $\rightarrow$ **development** $\rightarrow$ **feature** summarises our particular example. The feature branch constitutes the actual work space.
 ![](slide54.png)
 ## Preliminaries
 - On the GITHUB website, look for the + sign to create a new repository, and do it (it just contains a README file).
