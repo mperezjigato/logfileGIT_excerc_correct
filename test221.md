@@ -251,20 +251,20 @@ Deleted remote-tracking branch origin/feature/bye_world (was 0f07059).
     >               $ git pull
     >  ```
     >
-    > On the local Linux system, *swith back to the development branch and leave it there!*
+    > On the local Linux system, *switch back to the development branch and leave it there!*
     >  ```bash
     >               $ git switch development
     >  ```bash
     >
     
  with the outcome:
- ```bash
+  ```bash
 mperez2023@DESKTOP-UGTH925:~/GitHub/tmpnew1/branchexercisepart1$ git push origin development
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:mperezjigato/branchexercisepart1.git
    198f5e9..0f07059  development -> development
- ```   
- ```bash
+  ```   
+  ```bash
 mperez2023@DESKTOP-UGTH925:~/GitHub/tmpnew1/branchexercisepart1$ git switch main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
@@ -287,8 +287,8 @@ Fast-forward
  create mode 100644 Makefile
  create mode 100644 bye.f90
  create mode 100644 hw.f90
- ```
- ```bash
+  ```
+  ```bash
  mperez2023@DESKTOP-UGTH925:~/GitHub/tmpnew1/branchexercisepart1$ git branch
   development
 * main
@@ -297,7 +297,7 @@ Switched to branch 'development'
 mperez2023@DESKTOP-UGTH925:~/GitHub/tmpnew1/branchexercisepart1$ git branch                                                    
 * development
   main
- ```
+  ```
  Incidentally, it should be noted that my remote branch deletion does not seem to work!
 
 
