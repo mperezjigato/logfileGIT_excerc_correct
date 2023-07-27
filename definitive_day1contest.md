@@ -40,12 +40,24 @@ fi
 
    Once you have a `.gitconfig` file on your `$HOME`, it is good practice:
    ```bash
-                $cp ~/.gitconfig /etc/gitconfig
+                $ cp ~/.gitconfig /etc/gitconfig
 
-                $cp ~/.gitconfig $HOME/.config/git/config
+                $ cp ~/.gitconfig $HOME/.config/git/config
  
-                $export XDG_CONFIG_HOME=$HOME/.config
+                $ export XDG_CONFIG_HOME=$HOME/.config
    ```
+
+## You need to add you private key
+
+Just type:
+
+```bash
+                $ ssh-add id_ed25519_github    
+```
+and you should get:
+```bash
+Identity added: id_ed25519_github (manuel.perezjigato@uhasselt.be)
+```
 
 ## Typically you would like to clone a repository on your local Linux machine:
 
