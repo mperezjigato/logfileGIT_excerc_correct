@@ -55,7 +55,7 @@ Just type:
                 $ ssh-add id_ed25519_github    
 ```
 and you should get:
-```bash
+```
 Identity added: id_ed25519_github (manuel.perezjigato@uhasselt.be)
 ```
 
