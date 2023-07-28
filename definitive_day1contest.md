@@ -40,11 +40,11 @@ fi
 
    Once you have a `.gitconfig` file on your `$HOME`, it is good practice:
    ```bash
-                $cp ~/.gitconfig /etc/gitconfig
+                $ cp ~/.gitconfig /etc/gitconfig
 
-                $cp ~/.gitconfig $HOME/.config/git/config
+                $ cp ~/.gitconfig $HOME/.config/git/config
  
-                $export XDG_CONFIG_HOME=$HOME/.config
+                $ export XDG_CONFIG_HOME=$HOME/.config
    ```
 
 ## A private key needs to be added for communication:
@@ -56,7 +56,7 @@ fi
 
 On your GitHub website, put the cursor on the green button "Code" and choose from the menu the SSH option. Copy next the address provided at the little box, and do
 ```bash
-                     $git clone provided-web-address
+                     $ git clone provided-web-address
 ```
 where "provided-web-address" is the copy-pasted one. Do not use as address the website corresponding to the repository (see picture below):
 
