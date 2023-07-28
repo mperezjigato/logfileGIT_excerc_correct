@@ -1,2 +1,4 @@
+
 # logfileGIT_excerc_correct
-Follow-up of the exercises and problems being faced along the way
+
+Main repository containing the exercises carried out regarding Git/GitHub
